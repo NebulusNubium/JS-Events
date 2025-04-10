@@ -1,0 +1,6 @@
+const input = document.createElement('input')
+document.body.append(input)
+
+
+const message = document.createElement('p')
+document.body.append(message)
