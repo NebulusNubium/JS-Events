@@ -5,7 +5,7 @@ search.addEventListener('input', function () {
     const term = this.value;
 
     for (let i = 0; i < countries.length; i++) {
-        const country = countries[i].textContent.toLowerCase();
+        const country = countries[i].textContent;
         if (country.includes(term)) {
             countries[i].style.display = '';
         } else {
